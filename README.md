@@ -1,12 +1,8 @@
 # node js wx jssdk
 
-npm install express-session
-npm install connect-mongo
-npm install mongoose
-npm install urlencode
-npm install urllib
-npm install sha1
-=======
-# nodejs Wechat Jssdk
->>>>>>> origin/master
->>>>>>> Stashed changes
+npm install express-session<br>
+npm install connect-mongo<br>
+npm install mongoose<br>
+npm install urlencode<br>
+npm install urllib<br>
+npm install sha1<br>
