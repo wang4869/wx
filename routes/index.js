@@ -100,11 +100,6 @@ router.get('/', function (req, res, next) {
                         );
                     }
                 });
-                modelsWx.updateToken({
-                    'wxTokens': 'wxTokens',
-                    'token': 'updateToken',
-                    'overTime': 7200
-                }, res.render('index', {title: '更新token成功'}));
                 return;
             }
         }
