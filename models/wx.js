@@ -38,14 +38,6 @@ exports.updateToken = function (tokenInfo, callback) {
                 lastTime: Date.now()
             }
         },
-        function (err) {
-            if (err) {
-                return;
-            }
-            else {
-
-            }
-        },
         callback
     );
 };

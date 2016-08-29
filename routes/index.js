@@ -76,6 +76,7 @@ router.get('/', function (req, res, next) {
                                     else {
                                         wxticket = data.ticket;
                                         modelsWx.updateToken({
+                                            'wxTokens':'wxTokens',
                                             'token': wxToken,
                                             'overTime': wxExpires,
                                             'ticket': wxticket
