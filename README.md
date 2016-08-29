@@ -1,7 +1,3 @@
-<<<<<<< Updated upstream
-# nodejs Wechat Jssdk
-=======
-<<<<<<< HEAD
 # node js wx jssdk
 
 npm install express-session
