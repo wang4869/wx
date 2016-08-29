@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{title.pageTitle}}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+    <link rel='stylesheet' href='/stylesheets/wx.css'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+
+    <script src="/javascripts/jquery-1.9.1.min.js"></script>
+    <script src="/javascripts/common.js"></script>
+
+    <script>
+        var wxappId ='{{title.wxappId}}';
+        var wxtimestamp ='{{title.wxtimestamp}}';
+        var wxnonceStr ='{{title.wxnonceStr}}';
+        var wxsignature ='{{title.wxsignature}}';
+    </script>
+
+    <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+    <script src="/javascripts/wwx.js"></script>
+    <script src="/javascripts/wxdemo.js"></script>
+</head>
+<body>
+{{{body}}}
+</body>
+</html>
