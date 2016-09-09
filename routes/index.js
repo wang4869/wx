@@ -6,8 +6,8 @@ var urllib = require('urllib');
 var sha1 = require('sha1');
 
 
-var myAppid = "wx1dd9cc1253750335";
-var myAppsecret = "f1e528760dae465393e1dac8e3bbd292";
+var myAppid = "";
+var myAppsecret = "";
 var wxToken, wxExpires, wxticket, nowTime, wxUrl;
 
 function randomString(len) {
